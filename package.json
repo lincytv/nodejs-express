@@ -1,0 +1,20 @@
+{
+  "name": "webserver-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "dev": "nodemon script.js"
+  },
+  "author": "Lincy Varghese",
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.15.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "json": "^11.0.0",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7"
+  }
+}
